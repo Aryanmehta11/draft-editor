@@ -1,6 +1,6 @@
 Here’s the properly formatted version of your README with the required edits and proper syntax:
 
-```markdown
+
 # Draft.js Editor
 
 This is a simple text editor built using [Draft.js](https://draftjs.org/), a powerful React-based framework for building rich text editors. The editor supports basic inline styling such as **bold**, *italic*, underline, and custom header formatting. Additionally, the content is automatically saved to `localStorage` to persist across page reloads.
