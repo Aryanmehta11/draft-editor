@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+Here’s the properly formatted version of your README with the required edits and proper syntax:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Draft.js Editor
 
-## Available Scripts
+This is a simple text editor built using [Draft.js](https://draftjs.org/), a powerful React-based framework for building rich text editors. The editor supports basic inline styling such as **bold**, *italic*, underline, and custom header formatting. Additionally, the content is automatically saved to `localStorage` to persist across page reloads.
 
-In the project directory, you can run:
+## Features
+- **Inline Styling**: 
+  - **Bold** (`*text*`)
+  - **Red Line** (`**text**`)
+  - **Underlined** (`***text***`)
+  - **Header** (`# text`)
+- **LocalStorage Persistence**: Saves editor content to `localStorage`, so it remains even after page reloads.
+- **Custom Styling**: Custom styles are applied for different inline styles like bold, red line, underlined text, and headers.
+- **React & Draft.js**: This project utilizes `React` for the UI and `Draft.js` for handling rich text editing.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Follow the steps below to run this project locally:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clone the repository
 
-### `npm test`
+```bash
+git clone https://github.com/your-username/draft-js-editor.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Install dependencies
 
-### `npm run build`
+Navigate to the project directory and install the required dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd draft-js-editor
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Run the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start the development server and view the editor locally, use:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your app will be accessible at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Inline Styles**: To apply formatting, type the following symbols before the text:
+  - `*text*` for **bold**
+  - `**text**` for **red line**
+  - `***text***` for **underlined** text
+  - `# text` for **headers**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  After typing the symbols, press the **spacebar** to apply the respective style.
 
-## Learn More
+- **Save Content**: Click the "Save" button to save the current editor content to `localStorage`. This allows the content to persist across page reloads.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Persistence**: The content of the editor will automatically be saved in `localStorage`. Upon page reload, the editor will retrieve and display the saved content.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. Here are a few ways you can contribute:
+- Report bugs
+- Suggest improvements or features
+- Submit code for bugs or features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Now you can copy and paste this into your `README.md`. This version is formatted correctly with proper markdown syntax!
